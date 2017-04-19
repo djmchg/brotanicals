@@ -71,4 +71,4 @@ while True:
     time.sleep(1)
     
 # Upload data to website
-os.system("scp brotanicals.db uni@138.197.120.43:~/brotanicals/sensors.json")
+os.system("scp sensors.json [YOUR SERVER DIRECTORY]")
